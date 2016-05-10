@@ -13,7 +13,7 @@ let URL_BASE = "http://pokeapi.co"
 
 // here we pass the pokemon url ....>>>
 
-let URL_POKEMON = "/api/v2//pokemon/"
+let URL_POKEMON = "/api/v1/pokemon/"
 
 
 // here we are making our own custom func that contains block of code inside it and whenever we needed the particular bunch of code it gonna pass it ........according to the user desire

@@ -8,22 +8,16 @@
 
 import UIKit
 import AVFoundation
+import Alamofire
+
 
 //uicollectionviewDelegateFlowLayout let the everyimage to
 
 class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UISearchBarDelegate{
-    
-    
-    
+   
     @IBOutlet weak var Collection : UICollectionView!
     
     @IBOutlet weak var searchBox: UISearchBar!
-    
-    
-    
-    
-    
-    
     
     
     
@@ -371,10 +365,17 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     
     
     
+    
+    
+    
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         view.endEditing(true)
         
     }
+    
+    
+    
+    
     
     
     
@@ -386,6 +387,9 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
                     detailVC.pokemon = poke
                 }
             }
+            
+            
+            
         }
         
     }
