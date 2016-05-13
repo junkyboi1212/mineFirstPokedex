@@ -222,8 +222,10 @@ class Pokemon {
                             
                             // the function gonna perform when there is pokemon with mega pokemon in it.....
                             
+                            
                             if to.rangeOfString("mega") == nil {
                                 
+                            
                                 
                                 if let uri = evolutions[0]["resource_uri"] as? String {
                                     
@@ -244,8 +246,8 @@ class Pokemon {
                                     print(self._nextEvoId)
                                     print(self._nextEvoTxt)
                                     print(self._nextEvoLvl)
-                                    
                                 }
+                                
             }
                         }
                         
